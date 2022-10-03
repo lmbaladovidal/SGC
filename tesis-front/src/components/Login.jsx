@@ -4,7 +4,7 @@ import { Menu } from "./Menu"
 export const Login = () => {
   return (
     <>
-        <div>Login</div>
+        <h4>Login</h4>
         <Menu/>
     </>
   )

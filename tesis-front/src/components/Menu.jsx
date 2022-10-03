@@ -8,7 +8,7 @@ import {Perfil} from './index'
 export const Menu = () => {
   return (
     <>
-      <div>Menu</div>
+      <h1>Menu</h1>
       <ConsutlarPedido/>
       <CargaInformacionProductos/>
       <ClientesPorVendedor/>
