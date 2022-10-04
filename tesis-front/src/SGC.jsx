@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import { Perfil } from './components'
+import { Menu, Perfil } from './components'
 import './App.css'
 import { Login } from './components/login'
 import {  
@@ -15,11 +15,9 @@ function App() {
 
   return (
     <div className="App">
-        <Link to="/login"> Login </Link>
-        <Link to="/"> Home </Link>
-        <Routes>
-          <Route exact path="/login" element={<Login/>}></Route>        
-          <Route exact path="/" element={  <Perfil/>}></Route>        
+        <Routes>   
+          <Route exact path="/" element={  <Login/> }></Route>        
+          <Route exact path="/menu" element={  <Menu/> }></Route>        
         </Routes>
     </div>
   )

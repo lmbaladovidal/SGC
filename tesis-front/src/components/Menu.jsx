@@ -3,12 +3,14 @@ import {CargaInformacionProductos, ClientesPorVendedor,ConsultaCliente,ConsultaV
         EstadoSucursales,InformacionCliente,VentasPorVendedor,VisualizadorGeo} from './Coordinador'
 import {GestionEntre,ModificarRecorrido} from './Transportista'
 import {Perfil} from './index'
+import { ButtonCard } from './ButtonCard';
 
 
 export const Menu = () => {
   return (
     <>
       <h1>Menu</h1>
+      <ButtonCard image="prueba" seccion="prueba"/>
       <ConsutlarPedido/>
       <CargaInformacionProductos/>
       <ClientesPorVendedor/>
