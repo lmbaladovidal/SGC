@@ -3,12 +3,7 @@ import reactLogo from './assets/react.svg'
 import { Menu, Perfil } from './components'
 import './App.css'
 import { Login } from './components/login'
-import {  
-  BrowserRouter as Router,  
-  Routes,  
-  Route,  
-  Link  
-} from 'react-router-dom';  
+import { Routes, Route } from 'react-router-dom';  
 
 function App() {
   const [count, setCount] = useState(0)

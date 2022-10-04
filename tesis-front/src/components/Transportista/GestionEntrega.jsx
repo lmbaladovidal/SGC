@@ -1,7 +1,7 @@
 
 
-export const GestionEntre = () => {
+export const GestionEntrega = () => {
   return (
-    <div>GestionEntre</div>
+    <div>GestionEntrega</div>
   )
 }

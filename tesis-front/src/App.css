@@ -23,6 +23,9 @@ a{
   color: #ffffff;
 }
 
+h1{
+  color: #000000;
+}
 .principal{
   display: flex;
   flex-direction: column;
@@ -48,12 +51,41 @@ a{
   width: 80%;
 }
 
+.contenedor-menu{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+
+}
+
 .button{
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   width: 170px;
-  height: 106px;
+  height: 135px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
   left: 6px;
   top: 70px;
   background: #D90D6C;
   border-radius: 5px;
+}
+
+.button:hover{
+  background: #ff238a
+}
+
+.card-icon{
+  width: 50%;
+  margin-top: 8px;
 }
