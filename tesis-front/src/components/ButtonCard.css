@@ -1,0 +1,37 @@
+a{
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1{
+  color: #000000;
+}
+
+.button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 170px;
+  height: 135px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+  left: 6px;
+  top: 70px;
+  background: #D90D6C;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background: #ff238a
+}
+
+.card-icon{
+  width: 50%;
+ /*  margin-top: 8px; Hay que ver como hacer que el texto no exceda un contenedor, de momento sacando esto queda bien*/
+}
+
+.button-h6{
+  height: 30%;
+}
