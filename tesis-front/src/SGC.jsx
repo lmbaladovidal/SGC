@@ -4,7 +4,7 @@ import { Menu, Perfil } from './components'
 import './index.css'
 import { Login } from './components/login'
 import { Routes, Route } from 'react-router-dom';  
-import { ConsultaCliente } from './components/Coordinador'
+import { ConsultaCliente, InformacionCliente } from './components/Coordinador'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +15,7 @@ function App() {
           <Route exact path="/" element={  <Login/> }></Route>        
           <Route exact path="/menu" element={  <Menu/> }></Route>        
           <Route exact path="/ConsultaCliente" element={  <ConsultaCliente/> }></Route>        
+          <Route exact path="/informacionCliente" element={  <InformacionCliente/> }></Route>        
         </Routes>
     </div>
   )
