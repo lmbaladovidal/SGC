@@ -3,22 +3,14 @@ import { useState } from "react";
 import ComboBox from 'react-responsive-combo-box'
 import 'react-responsive-combo-box/dist/index.css'
 
-const ComboBoxComponent = () => {
+const ComboBoxComponent = ({options,placeholder}) => {
   const [selectedOption, setSelectedOption] = useState("");
   const [highlightedOption, setHighlightedOption] = useState("");
-  const options = [
-    "BDF",
-    "Carrefour",
-    "Libertad",
-    "Nivea",
-    "Rinin",
-    "Rexona",
-    "Spadol",    
-  ];
+
   return (      
         <ComboBox
           options={options}
-          placeholder="Cliente"
+          placeholder={placeholder}
           defaultIndex={4}
           optionsListMaxHeight={300}
           style={{

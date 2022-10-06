@@ -2,7 +2,10 @@ import Cabecera from "../Cabecera"
 import './InformacionCliente.css'
 
 export const InformacionCliente = () => {
-  const items = ['Perfil']
+  const items = [
+    {url:'/informacionCliente',titulo:'Informacion Cliente'},
+    {url:'/CargaInformacionProducto',titulo:'Carga Información Productos'},
+  ];
   return (
     <>
       <Cabecera titulo={"Información Clientes"} items={items}/>
