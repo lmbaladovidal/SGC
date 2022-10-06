@@ -51,7 +51,7 @@ export const data = {
 export function BarChar() {
   return(
         <div className='chart-container'>
-            <Bar className='bar' options={options} data={data} />;
+            <Bar className='bar' options={options} data={data} />
         </div>
   )
 }

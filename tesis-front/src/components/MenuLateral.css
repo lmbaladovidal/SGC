@@ -18,8 +18,16 @@
     align-items: center;
 }
 
+.menu-lateral-nav{
+    height: 80%;
+}
+
 .menu-lateral-li{
     margin: 0 .5em;
+    border-top: .5px;
+}
+.menu-lateral-a{
+    text-align: start;
 }
 
 @media screen and (max-width:560px){

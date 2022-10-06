@@ -180,12 +180,10 @@ body {
 }
 
 .bar{
-  width: 80%;
+  width: 60%;
 }
 
 .react-calendar{
-  width: 80%;
-  color: black  ;
-  border: 1px;
-  border-color: black;
+  width: 60%;
+
 }

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import MenuLareral from './MenuLateral';
 import './Cabecera.css';
 
-const Cabecera = ({titulo}) =>{
+const Cabecera = ({titulo,items}) =>{
     const [menu,setMenu] = useState(false)
     const toggleMenu = ()=>{
         setMenu(!menu)
@@ -21,7 +21,7 @@ const Cabecera = ({titulo}) =>{
                     </a>
                 </h1>
             </header>
-            <MenuLareral menu={menu}/>
+            <MenuLareral menu={menu} items={items}/>
         </div>
     )
 }
