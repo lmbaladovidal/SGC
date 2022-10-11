@@ -1,4 +1,4 @@
-import Cabecera from "../Cabecera"
+import Cabecera from '../ComponentesAuxiliares/Cabecera'
 import './InformacionCliente.css'
 
 export const InformacionCliente = () => {

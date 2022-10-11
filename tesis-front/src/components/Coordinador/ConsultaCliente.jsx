@@ -1,8 +1,8 @@
-import Cabecera from "../Cabecera"
-import ComboBoxComponent from "../ComboBox"
-import { BarChar } from "../BarChar"
+import Cabecera from "../ComponentesAuxiliares/Cabecera"
+import ComboBoxComponent from "../ComponentesAuxiliares/ComboBox"
+import { BarChar } from "../ComponentesAuxiliares/BarChar"
 import { useState } from "react"
-import { CalendarComponent } from "../Calendar"
+import { CalendarComponent } from "../ComponentesAuxiliares/Calendar"
 import './ConsultaCliente.css'
 
 export const ConsultaCliente = () => {

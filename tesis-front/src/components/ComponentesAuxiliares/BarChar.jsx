@@ -18,7 +18,7 @@ ChartJS.register(
   Tooltip,
   Legend
 );
-import '../index.css'
+import '../../index.css'
 
 export const options = {
   responsive: true,
