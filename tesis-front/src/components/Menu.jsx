@@ -19,10 +19,13 @@ import './Menu.css'
 
 
 export const Menu = () => {
+  const items = [
+    {url:'/informacionCliente',titulo:'Informacion Cliente'},
+    {url:'/informacionCliente',titulo:'Carga Información Productos'},
+  ];
   return (
     <div className='contenedor-menu'>
-      <Cabecera titulo="Menu Principal"/>
-      <h1>Menu</h1>
+      <Cabecera titulo="Menu Principal" items={items}/>
       <div className='menu'>
         <ButtonCard image={consultarPedido} seccion="Consultar Pedido" url={"/ConsultaPedido"}/>
         <ButtonCard image={cargarInformacionProductos} seccion="Cargar Informacion Producto"/>
@@ -31,11 +34,9 @@ export const Menu = () => {
         <ButtonCard image={consultaVendedores} seccion="Consultar Vendedores"/>
         <ButtonCard image={estadoSucursales} seccion="Estado Sucursales"/>
         <ButtonCard image={visualizadorGeo} seccion="Visualizador Geo"/>
-        <ButtonCard image={gestionEntrega} seccion="Gestión Entrega"/>
-        <ButtonCard image={modificarRecorrido} seccion="Modificar Recorrido"/>
+        <ButtonCard image={gestionEntrega} seccion="Gestión Entrega" url={"/GestionEnterga"}/>
+        <ButtonCard image={modificarRecorrido} seccion="Modificar Recorrido" url={"/ModificarRecorrido"}/>
       </div>
-      <VentasPorVendedor/>
-      <Perfil/>
     </div>
   )
 }

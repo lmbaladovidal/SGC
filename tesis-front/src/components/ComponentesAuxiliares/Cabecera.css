@@ -18,6 +18,7 @@
 }
 .cabecera-h1{
     color: white;
+    white-space: nowrap;
 }
 .cabecera-button{    
     display: none;
