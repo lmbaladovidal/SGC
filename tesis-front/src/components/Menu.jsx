@@ -27,15 +27,16 @@ export const Menu = () => {
     <div className='contenedor-menu'>
       <Cabecera titulo="Menu Principal" items={items}/>
       <div className='menu'>
-        <ButtonCard image={consultarPedido} seccion="Consultar Pedido" url={"/ConsultaPedido"}/>
-        <ButtonCard image={cargarInformacionProductos} seccion="Cargar Informacion Producto"/>
-        <ButtonCard image={clientesPorVendedor} seccion="Consultar Clientes por Vendedor"/>
+        <ButtonCard image={cargarInformacionProductos} seccion="Cargar Informacion Producto" url={"/CargarInformacionProducto"}/>
+        <ButtonCard image={clientesPorVendedor} seccion="Consultar Clientes por Vendedor" url={"/ClientePorVendedor"}/>
         <ButtonCard image={consultaCLiente} seccion="Consultar Clientes" url={"/ConsultaCliente"}/>
-        <ButtonCard image={consultaVendedores} seccion="Consultar Vendedores"/>
-        <ButtonCard image={estadoSucursales} seccion="Estado Sucursales"/>
-        <ButtonCard image={visualizadorGeo} seccion="Visualizador Geo"/>
+        <ButtonCard image={consultarPedido} seccion="Consultar Pedido" url={"/ConsultaPedido"}/>
+        <ButtonCard image={consultaVendedores} seccion="Consultar Vendedores" url={"/ConsultaVendedores"}/>
+        <ButtonCard image={estadoSucursales} seccion="Estado Sucursales" url={"/EstadoSucursales"}/>
         <ButtonCard image={gestionEntrega} seccion="Gestión Entrega" url={"/GestionEnterga"}/>
         <ButtonCard image={modificarRecorrido} seccion="Modificar Recorrido" url={"/ModificarRecorrido"}/>
+        <ButtonCard image={VentasPorVendedor} seccion="Ventas Por Vendedor" url={"/VentasPorVendedor"}/>
+        <ButtonCard image={visualizadorGeo} seccion="Visualizador Geo"/>
       </div>
     </div>
   )
