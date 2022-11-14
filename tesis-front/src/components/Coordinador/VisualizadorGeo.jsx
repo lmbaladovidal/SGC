@@ -10,6 +10,8 @@ const fetcher = (...args) => fetch(...args).then(response => response.json());
 
 const Marker = ({ children }) => children;
 
+const MarkerFather = ({FBbedBVi3fUFpf8}) => father
+
 
 export const VisualizadorGeo=()=> {
   const items = [
@@ -54,7 +56,7 @@ export const VisualizadorGeo=()=> {
       <Cabecera titulo={"Visualizador Geo"} items={items}/>
       <div style={{ height: "90vh", width: "100%" }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyCeP72AM7ec6pKplQVAFBbedBVi3fUFpf8" }}
+          bootstrapURLKeys={{ key: "AIzaSyCeP72AM7ec6pKplQVA" }}
           defaultCenter={{ lat: -30.9956615, lng: -64.1070163 }}
           defaultZoom={14.75}
           onChange={({zoom,bounds})=>{
