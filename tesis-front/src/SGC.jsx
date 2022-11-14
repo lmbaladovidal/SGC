@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Menu, Perfil } from './components'
 import { Login } from './components/login'
 import { Routes, Route } from 'react-router-dom';  
-import { ClientesPorVendedor, ConsultaCliente, ConsultaVendedores, EstadoSucursales, InformacionCliente, InformacionVendedor, VentasPorVendedor } from './components/Coordinador'
+import { ClientesPorVendedor, ConsultaCliente, ConsultaVendedores, EstadoSucursales, InformacionCliente, InformacionVendedor, VentasPorVendedor, VisualizadorGeo } from './components/Coordinador'
 import { ConsutlarPedido } from './components/Cliente'
 import {CargaInformacionProductos} from './components/Coordinador/CargaInformacionProductos'
 import {GestionEntrega} from './components/Transportista/GestionEntrega'
@@ -26,7 +26,8 @@ function App() {
           <Route exact path="/InformacionVendedor" element={  <InformacionVendedor/> }></Route>        
           <Route exact path="/menu" element={  <Menu/> }></Route>        
           <Route exact path="/ModificarRecorrido" element={  <ModificarRecorrido/> }></Route>        
-          <Route exact path="/VentasPorVendedor" element={  <VentasPorVendedor/> }></Route>        
+          <Route exact path="/VentasPorVendedor" element={  <VentasPorVendedor/> }></Route> 
+          <Route exact path="/VisualizadorGeo" element={<VisualizadorGeo/>}></Route>       
         </Routes>
     </div>
   )

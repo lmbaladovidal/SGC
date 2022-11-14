@@ -1,0 +1,9 @@
+.cluster-maker {
+    color: #FFF;
+    background: #F953C6;;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -13,6 +13,7 @@ import estadoSucursales from '../assets/Shop_Flat.svg'
 import visualizadorGeo from '../assets/Network_Flat.svg'
 import gestionEntrega from '../assets/Delivery_Box_Flat.svg'
 import modificarRecorrido from '../assets/Delivery_Truck_Flat.svg'
+import ventasPorVendedor from '../assets/Seller_Agent_Flat.svg'
 import Cabecera from './ComponentesAuxiliares/Cabecera';
 import MenuLateral from './ComponentesAuxiliares/MenuLateral';
 import './Menu.css'
@@ -35,8 +36,8 @@ export const Menu = () => {
         <ButtonCard image={estadoSucursales} seccion="Estado Sucursales" url={"/EstadoSucursales"}/>
         <ButtonCard image={gestionEntrega} seccion="Gestión Entrega" url={"/GestionEnterga"}/>
         <ButtonCard image={modificarRecorrido} seccion="Modificar Recorrido" url={"/ModificarRecorrido"}/>
-        <ButtonCard image={VentasPorVendedor} seccion="Ventas Por Vendedor" url={"/VentasPorVendedor"}/>
-        <ButtonCard image={visualizadorGeo} seccion="Visualizador Geo"/>
+        <ButtonCard image={ventasPorVendedor} seccion="Ventas Por Vendedor" url={"/VentasPorVendedor"}/>
+        <ButtonCard image={visualizadorGeo} seccion="Visualizador Geo"  url={"/VisualizadorGeo"}/>
       </div>
     </div>
   )

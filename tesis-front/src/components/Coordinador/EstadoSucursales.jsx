@@ -1,6 +1,7 @@
 
 import { DataGridComponent } from "../ComponentesAuxiliares/DataGrid";
 import ComboBoxComponent from "../ComponentesAuxiliares/ComboBox";
+import Cabecera from "../ComponentesAuxiliares/Cabecera";
 export const EstadoSucursales = () => {
   const options = [
     "BDF",
@@ -43,6 +44,7 @@ export const EstadoSucursales = () => {
   ];
   return (
     <div>
+      <Cabecera titulo="Consulta Clientes" items={items}/>
       <ComboBoxComponent options={options} placeholder="Cliente"/>
       <ComboBoxComponent options={optionsSucursales} placeholder="Sucursal"/>
       <div className="agregar-producto-div">

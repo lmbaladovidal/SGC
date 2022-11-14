@@ -1,4 +1,5 @@
 
+import Cabecera from "../ComponentesAuxiliares/Cabecera";
 import { DataGridComponent } from "../ComponentesAuxiliares/DataGrid";
 export const ConsultaVendedores = () => {  const columns = [
   { key: 'nro', name: 'Nro' },
@@ -19,8 +20,13 @@ const rows = [
   {nro: 9, nombre: 'Example',zona:'11' },
 ];
 
+const items = [{url:'/informacionCliente',titulo:'Informacion Cliente'},
+{url:'/CargaInformacionProducto',titulo:'Carga Información Productos'},
+];
+
 return (
   <div className="contenedor-consulta-pedido">
+    <Cabecera titulo="Consulta Clientes" items={items}/>
     <div className="data-grid-consulta-pedidos">
       <DataGridComponent columns={columns} rows={rows} />
     </div>

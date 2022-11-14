@@ -1,3 +1,4 @@
+import Cabecera from "../ComponentesAuxiliares/Cabecera";
 import ComboBoxComponent from "../ComponentesAuxiliares/ComboBox";
 import { DataGridComponent } from "../ComponentesAuxiliares/DataGrid"
 export const ClientesPorVendedor = () => {
@@ -30,8 +31,14 @@ export const ClientesPorVendedor = () => {
     "Rexona",
     "Spadol",    
   ];
+
+  const items = [
+    {url:'/informacionCliente',titulo:'Informacion Cliente'},
+    {url:'/CargaInformacionProducto',titulo:'Carga Información Productos'},
+  ];
   return (
     <div className="contenedor-consulta-pedido">
+      <Cabecera titulo="Consulta Clientes Por Vendedor" items={items}/>
       <ComboBoxComponent options={options} placeholder="Vendedor"/>
       <div className="data-grid-consulta-pedidos">
         <DataGridComponent columns={columns} rows={rows} />
