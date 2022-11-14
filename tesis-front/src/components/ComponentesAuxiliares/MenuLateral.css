@@ -28,6 +28,8 @@
 }
 .menu-lateral-a{
     text-align: start;
+    overflow: hidden;
+    width: 220px;
 }
 
 @media screen and (max-width:560px){
@@ -45,11 +47,13 @@
         opacity: 0;
         overflow: hidden;
         transition: all .5s ease;
+        
     }
 
     .menu-lateral.is-active{
-        width: 47%;
-        opacity: 1;
+        width: 55%;
+        opacity: .9;
+        
 
     }
     

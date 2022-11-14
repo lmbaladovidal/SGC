@@ -1,0 +1,14 @@
+.contenedor-consulta-pedido{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data-grid-consulta-pedidos{
+    width: 80%;
+    border: gray solid 1px;
+    border-radius: 5px;
+    height: 90%;
+    margin-top: 5vh;
+}
