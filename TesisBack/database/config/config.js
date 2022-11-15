@@ -1,9 +1,10 @@
-{
+module.exports={
   "development": {
     "username": "root",
     "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "database": "sgc",
+    "host": "localhost",
+    "port":3030,
     "dialect": "mysql"
   },
   "test": {
