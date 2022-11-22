@@ -27,7 +27,7 @@ export const VentasPorVendedor = () => {
   ];
   return (
     <div className="contenedor-consulta-clientes">
-      <Cabecera titulo="Consulta Clientes" items={items}/>
+      <Cabecera titulo="Ventas Por Vendedor" items={items}/>
       <ComboBoxComponent options={options} placeholder={"Vendedor"}/>
       <BarChar chartData={data}/>
       <CalendarComponent/>

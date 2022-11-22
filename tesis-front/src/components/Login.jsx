@@ -9,11 +9,11 @@ export const Login = () => {
         <img src={logo} alt="" className="logo"/>
         <form action="/menu" className="form-login">
           <div>
-            <h5>Usuario</h5>
+            <h5 className="login-title">Usuario</h5>
             <input type="text" className="text"/>
           </div>
           <div>
-            <h5>Contraseña</h5>
+            <h5 className="login-title">Contraseña</h5>
             <input type="password" name="" id="" className="text"/>            
           </div>
           <input type="submit" value="Ingresar" className="submit"/>

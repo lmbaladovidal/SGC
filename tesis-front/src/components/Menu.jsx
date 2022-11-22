@@ -21,8 +21,6 @@ import './Menu.css'
 
 export const Menu = () => {
   const items = [
-    {url:'/informacionCliente',titulo:'Informacion Cliente'},
-    {url:'/informacionCliente',titulo:'Carga Información Productos'},
   ];
   return (
     <div className='contenedor-menu'>

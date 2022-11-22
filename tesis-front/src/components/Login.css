@@ -11,3 +11,8 @@
   align-items: center;
   width: 70%;
 }
+
+.login-title{
+  color:black;
+  font-weight: bold;
+}

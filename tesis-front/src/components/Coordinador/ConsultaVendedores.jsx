@@ -21,12 +21,11 @@ const rows = [
 ];
 
 const items = [{url:'/informacionCliente',titulo:'Informacion Cliente'},
-{url:'/CargaInformacionProducto',titulo:'Carga Información Productos'},
-];
+               {url:'/CargaInformacionProducto',titulo:'Carga Información Productos'},];
 
 return (
   <div className="contenedor-consulta-pedido">
-    <Cabecera titulo="Consulta Clientes" items={items}/>
+    <Cabecera titulo="Consulta Vendedores" items={items}/>
     <div className="data-grid-consulta-pedidos">
       <DataGridComponent columns={columns} rows={rows} />
     </div>

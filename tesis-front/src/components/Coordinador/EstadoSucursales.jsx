@@ -44,12 +44,13 @@ export const EstadoSucursales = () => {
   ];
   return (
     <div>
-      <Cabecera titulo="Consulta Clientes" items={items}/>
+      <Cabecera titulo="Consulta Sucursales" items={items}/>
       <ComboBoxComponent options={options} placeholder="Cliente"/>
       <ComboBoxComponent options={optionsSucursales} placeholder="Sucursal"/>
       <div className="agregar-producto-div">
-        <input type="text" className="agregar-producto-input"></input>
-        <input type="text" className="agregar-producto-input"></input>
+        {/* <input type="text" style={{color: '#000000'},{margin:'10px'}} className="agregar-producto-input"></input> */}
+        <p style={{color: '#000000',margin:'10px'}}>Estado Sucursal</p>
+        <input type="text" style={{color: '#000000',margin:'10px'}} className="agregar-producto-input"></input>
       </div>
       <DataGridComponent columns={columns} rows={rows} />
     </div>

@@ -25,7 +25,7 @@ export const ConsutlarPedido = () => {
   ];
   return (
     <div className="contenedor-consulta-pedido">
-      <Cabecera titulo={'ConsultaPedidos'} items={['Perfil','Volver Al Menu']}/>
+      <Cabecera titulo={'ConsultaPedidos'} />
       <div className="data-grid-consulta-pedidos">
         <DataGridComponent columns={columns} rows={rows} />
       </div>
